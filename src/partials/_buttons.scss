@@ -1,0 +1,32 @@
+.btn-full {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-block;
+
+  &:hover {
+    color: black;
+    background-color: transparent;
+    border: 1px solid white;
+  }
+}
+
+.btn-empty {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  border: 1px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-block;
+
+  &:hover {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+  }
+}

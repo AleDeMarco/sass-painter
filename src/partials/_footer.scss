@@ -1,0 +1,29 @@
+footer {
+  background-color: #ececec;
+
+  .col {
+    padding: 50px 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    float: left;
+
+    .title {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        cursor: pointer;
+        padding: 5px 0;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

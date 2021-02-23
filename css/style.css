@@ -1,0 +1,173 @@
+.btn-full {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn-full:hover {
+  color: black;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.btn-empty {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  border: 1px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn-empty:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 100px;
+  background-color: #000;
+}
+header .header-top {
+  height: 45px;
+}
+header .header-top nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+header .header-top nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .header-top nav ul li {
+  padding-right: 20px;
+}
+header .header-top nav ul li a {
+  color: lightgrey;
+}
+header .header-top nav ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+header .header-top nav ul li i {
+  color: #009dff;
+  padding-right: 5px;
+}
+header .header-top nav ul li select {
+  outline: none;
+}
+header .header-bottom {
+  height: calc(100px - 45px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-bottom .logo img {
+  width: 90px;
+  margin: 20px;
+}
+
+nav.navbar {
+  height: 100%;
+}
+nav.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav.navbar ul li {
+  padding: 20px;
+  margin-right: 20px;
+}
+nav.navbar ul li a {
+  color: #fff;
+}
+nav.navbar ul li:hover {
+  background-color: #fff;
+}
+nav.navbar ul li:hover a {
+  color: #000;
+}
+
+main {
+  background-image: url("../img/bg-painter-home.jpg");
+  height: 600px;
+  background-size: cover;
+}
+main img {
+  width: 300px;
+  margin: 50px 0;
+}
+main .jumbo-text {
+  font-size: 20px;
+  width: 50%;
+}
+main .special-offer-title {
+  font-size: 20px;
+  color: #C612B8;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 40px;
+}
+main .special-offer-text {
+  font-size: 20px;
+  color: #C612B8;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #ececec;
+}
+footer .col {
+  padding: 50px 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  float: left;
+}
+footer .col .title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+footer .col ul {
+  list-style: none;
+}
+footer .col ul li {
+  cursor: pointer;
+  padding: 5px 0;
+}
+footer .col ul li:hover {
+  text-decoration: underline;
+}
