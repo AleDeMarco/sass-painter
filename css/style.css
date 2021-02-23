@@ -1,17 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap);
 .btn-full {
   text-transform: uppercase;
   font-weight: bold;
   color: white;
   background-color: black;
   border: 1px solid black;
-  padding: 10px 20px;
+  padding: 20px 30px;
+  margin-right: 20px;
   cursor: pointer;
   display: inline-block;
-}
-.btn-full:hover {
-  color: black;
-  background-color: transparent;
-  border: 1px solid white;
 }
 
 .btn-empty {
@@ -19,20 +16,16 @@
   font-weight: bold;
   color: black;
   border: 1px solid white;
-  padding: 10px 20px;
+  padding: 20px 30px;
   cursor: pointer;
   display: inline-block;
-}
-.btn-empty:hover {
-  color: white;
-  background-color: black;
-  border: 1px solid black;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -82,7 +75,7 @@ header .header-top nav ul li a:hover {
 }
 header .header-top nav ul li i {
   color: #009dff;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 header .header-top nav ul li select {
   outline: none;
@@ -118,6 +111,37 @@ nav.navbar ul li:hover {
 }
 nav.navbar ul li:hover a {
   color: #000;
+}
+
+li.parent-dropdown {
+  position: relative;
+}
+li.parent-dropdown .dropdown {
+  position: absolute;
+  top: calc(100px - 45px);
+  left: 0;
+  width: 300px;
+  background-color: #fff;
+  display: none;
+}
+li.parent-dropdown .dropdown ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+li.parent-dropdown .dropdown ul li.dropdown-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+li.parent-dropdown .dropdown ul li.dropdown-link:hover {
+  background-color: grey;
+}
+li.parent-dropdown:hover .dropdown {
+  display: block;
 }
 
 main {

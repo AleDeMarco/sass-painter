@@ -1,7 +1,7 @@
 header {
   height: $altezzaHeader;
   background-color: $colorBlack;
-  
+
   .#{&}-top{
     height: $altezzaHeaderTop;
 
@@ -27,7 +27,7 @@ header {
 
           i {
             color: #009dff;
-            padding-right: 5px;
+            padding-right: 10px;
           }
 
           select {
